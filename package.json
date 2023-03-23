@@ -4,7 +4,6 @@
   "description": "Module Federation demo: validate that we can use a component from a remote with Vue 2 and Webpack in a Nuxt 3 app",
   "main": "index.js",
   "private": false,
-  "repository": "https://github.com/david2am/mfe-vue2wp-nuxt3.git",
-  "author": "ddevarg <dvccueter@gmail.com>",
+  "author": "david2am",
   "license": "MIT"
 }
