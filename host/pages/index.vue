@@ -6,9 +6,9 @@ import Footer from 'remote/Footer'
 
 <template>
     <div class="container">
-      <div>Name: LOCAL</div>
-      <div>Framework: Vue 3 - Nuxt 3</div>
-      <div>:Vite</div>
+      <h2>LOCAL</h2>
+      <p>Vue 3 - Nuxt 3</p>
+      <p>:Vite</p>
       <Footer />
   </div>
 </template>

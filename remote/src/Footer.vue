@@ -1,15 +1,13 @@
 <template>
-    <div>
-        <header>
-            <nav>
-            <ul>
-                <li>Company</li>
-                <li>Donations</li>
-                <li>Social</li>
-            </ul>
-            </nav>
-        </header>
-    </div>
+  <footer>
+      <nav>
+        <ul>
+            <li>REMOTE</li>
+            <li>Webpack</li>
+            <li>Vue 2</li>
+        </ul>
+      </nav>
+  </footer>
 </template>
     
 <style scoped lang="scss">
@@ -23,7 +21,7 @@ ul {
     background-color: greenyellow;
 
     li {
-        color:brown;
+        color:white;
     }
 }
 </style>
