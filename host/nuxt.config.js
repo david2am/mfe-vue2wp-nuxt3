@@ -1,6 +1,6 @@
 import federation from "@originjs/vite-plugin-federation";
 
-const remoteUrl = 'http://localhost:5000'
+const remoteUrl = 'http://localhost:8081'
 
 export default defineNuxtConfig({
     ssr: false, // doesn't work with this in true by default
@@ -11,12 +11,21 @@ export default defineNuxtConfig({
         },
     },
     vite: {
+      resolve: {
+        alias: {
+            vue: '@vue/compat'
+        },
+      },
       plugins: [
         federation({
-          name: "host",
-          remotes: {
-            remote: `${remoteUrl}/assets/remoteEntry.js`,
-          },
+            name: "host",
+            remotes: {
+                remote: {
+                    external: `${remoteUrl}/remoteEntry.js`,
+                    format: "var",
+                    from: "webpack",
+                },
+            },
         }),
       ]
     }

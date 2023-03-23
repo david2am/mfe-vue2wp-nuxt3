@@ -1,15 +1,15 @@
 <script setup>
 // import { defineAsyncComponent } from "vue";
-// const Header = defineAsyncComponent(() => import("remote/Header"));
-import Header from 'remote/Header'
+// const Footer = defineAsyncComponent(() => import("remote/Footer"));
+import Footer from 'remote/Footer'
 </script>
 
 <template>
     <div class="container">
-      <Header />
       <div>Name: LOCAL</div>
       <div>Framework: Vue 3 - Nuxt 3</div>
       <div>:Vite</div>
+      <Footer />
   </div>
 </template>
 
