@@ -2,7 +2,9 @@
   <footer>
       <nav>
         <ul>
-            <li>REMOTE</li>
+            <li>
+              <strong>REMOTE</strong>
+            </li>
             <li>Webpack</li>
             <li>Vue 2</li>
         </ul>
